@@ -5,5 +5,10 @@
 **Results** : The results are seen in DL For SS.pdf
 
 ### Part A
-This involves creating the PSP net, which is motivated from the original paper [here](https://arxiv.org/pdf/1612.01105.pdf). The network uses ResNet as a backbone. The idea is to use _dilation_ (which increases the receptive power of the network. [This](https://theaisummer.com/receptive-field/) is a good definition of receptive power, which in essence means that the network is able to increase the amount of information absorbed) and then aggregates context over different portions of the image using the pyramid pooling layer. The architecture is defined as below.  
+
+This involves creating the PSP net, which is motivated from the original paper [here](https://arxiv.org/pdf/1612.01105.pdf). The network uses ResNet as a backbone. 
+
+The idea is to use _dilation_ (which increases the receptive power of the network. [This](https://theaisummer.com/receptive-field/) is a good definition of receptive power, which in essence means that the network is able to increase the amount of information absorbed) and then aggregates context over different portions of the image using the 'Pyramid Pooling Module' (PPM).
+
+The architecture is defined as below.  
 ![PSPNet Working](PSPNet.png?raw=true "PSPNet Working")
