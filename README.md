@@ -19,3 +19,9 @@ The data used here is from the Camvid dataset (a small set of 701 images for sel
 ### Part B
 
 Next, I conduct transfer learning by using the pre-trained weights of PSPNet from Part A on a new dataset named KITTI. (Also a dataset for semantic segmentation). Please find more details in the results pdf.
+
+
+
+All directly relevant code is present in src/vision.
+
+#### To do : Complete directory tree + description in the read me. Also include instructions for running.
