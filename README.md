@@ -12,3 +12,5 @@ The idea is to use _dilation_ (which increases the receptive power of the networ
 
 The architecture is defined as below.  
 ![PSPNet Working](PSPNet.png?raw=true "PSPNet Working")
+
+The data used here is from the Camvid dataset (a small set of 701 images for self-driving perception). More can be read about it [here](http://mi.eng.cam.ac.uk/research/projects/VideoRec/CamVid/) and [here] (http://www0.cs.ucl.ac.uk/staff/G.Brostow/papers/Brostow_2009-PRL.pdf).
