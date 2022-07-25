@@ -1,3 +1,3 @@
 # Semantic Segmentation with Deep Learning
 
-![Alt text](PSPNet.png?raw=true "Title")
+![PSPNet Working](PSPNet.png?raw=true "PSPNet Working")
